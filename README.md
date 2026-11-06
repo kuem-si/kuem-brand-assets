@@ -26,7 +26,7 @@ Colours are the KUEM screen colours (sRGB): Carbon #161A1D, Concrete #E8E6E1, Wh
 
 | Folder | File | Size | Where it goes |
 | --- | --- | --- | --- |
-| `digital/linkedin/` | `KUEM_LinkedIn_Company-Cover_4200x700_SL` / `_EN` | 4200 × 700 px | Company page › Edit page › Cover image. LinkedIn shows it at 1128 × 191 px; the bottom-left corner stays empty because the logo overlaps it there. |
+| `digital/linkedin/` | `KUEM_LinkedIn_Company-Cover_Dashboard_4536x768_SL` / `_EN` | 4536 × 768 px (PNG, JPG), plus 1512 × 256 copies | Company page › Edit page › Cover image. Upload the 4536 × 768 PNG; LinkedIn shows it at 1512 × 256 px or smaller. The dashboard figures are illustrative, not real readings. |
 | | `KUEM_LinkedIn_Logo_400x400` | 400 × 400 px | Company page › Edit page › Logo. |
 | | `KUEM_LinkedIn_Personal-Banner_1584x396_SL` / `_EN` | 1584 × 396 px | Personal profiles of KUEM employees › Background photo. The left side stays free for the profile photo. |
 | `digital/google/` | `KUEM_Google_Business-Profile-Logo_720x720` | 720 × 720 px | Google Business Profile › Photos › Logo (Google shows it round; the K stays clear of the edge). Also suits other square avatar fields. |
