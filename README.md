@@ -18,6 +18,36 @@ Every artwork comes in the formats its use needs:
 
 Colours are the KUEM screen colours (sRGB): Carbon #161A1D, Concrete #E8E6E1, White #FFFFFF, Petrol #156B75, Petrol Light #4FA3AD, Signal Copper #F06432. Print and textile producers convert them with their own profile; ask for a printed or fabric proof before every first run.
 
+## Logo
+
+`logo/` holds the master artwork as vector SVG, every shape outlined and cropped to the artwork; add the clear space around it in your layout. Use these files; never retype the wordmark in a font.
+
+| Folder | Files | Use |
+| --- | --- | --- |
+| `logo/wordmark/` | `KUEM_Wordmark_Carbon`, `_White`, `_Petrol`, `_Black` | The KUEM wordmark, the main logo. Carbon on White or Concrete; White on Carbon; Petrol for secondary use on White or Concrete; Black only where production allows one colour. At least 100 px wide on screen, 25 mm in print, 45 mm embroidered. |
+| `logo/monogram/` | `KUEM_Monogram_Carbon`, `_White`, `_Petrol`, `_Black` | The K alone, for places where the wordmark would not be legible: favicons, app icons, profile pictures. Wherever the wordmark fits at 100 px wide or more, use the wordmark. At least 16 px. Never copper, and nothing added to it. |
+| `logo/favicon/` | `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png` | Website and web app icons. |
+
+The company name, KUEM d.o.o., is written in text next to the logo, never built into it.
+
+## Icons
+
+`icons/` holds the 44 KUEM icons as SVG (`kuem-<name>.svg`), the same set as on www.kuem.si.
+
+- Drawn on a 24 × 24 grid with a 2 px margin and a 2 px stroke, square caps and mitred joins, lines at 0°, 45° and 90°.
+- Colour comes from `currentColor`, so an icon takes the colour of the text around it: Carbon or Petrol on light backgrounds, White on Carbon. Signal Copper only for alarms; in `kuem-decision.svg` the node marked `class="signal"` may be copper.
+- Do not add fills, rounded caps or effects.
+
+| Group | Icons |
+| --- | --- |
+| Meters | water-meter, gas-meter, heat-meter, electricity-meter |
+| Field and connectivity | sensor, gateway, network, cellular, battery |
+| Events | alarm, valve, leak |
+| Sites | building, municipality, lighting, sewerage, location |
+| Measurements | temperature, air, noise |
+| Platform | platform, database, dashboard, decision |
+| Topics | water, energy, environment, mobility, monitoring, chart, analytics, settings, maintenance, code, software, integration, check, people, presence, knowledge, document, dialog, shield, continuity |
+
 ## Fonts
 
 `fonts/` holds Space Grotesk (Regular, Bold) for headings and Source Sans 3 (Regular, Semibold) for text. Install all four on every computer that edits the Word and PowerPoint templates; without them Office substitutes other fonts and the layout changes.
@@ -33,10 +63,7 @@ Colours are the KUEM screen colours (sRGB): Carbon #161A1D, Concrete #E8E6E1, Wh
 | | `KUEM_Google_Workspace-Logo_320x132` | 320 × 132 px, transparent | Google Workspace Admin › Account › Account settings › Personalization › Custom logo. |
 | `digital/youtube/` | `KUEM_YouTube_Profile-Picture_800x800` | 800 × 800 px | YouTube Studio › Customization › Branding › Picture (shown round). |
 | | `KUEM_YouTube_Watermark_150x150` | 150 × 150 px | YouTube Studio › Customization › Branding › Video watermark. |
-| `digital/email-signature/` | `KUEM_Email-Signature_SL.html` / `_EN.html` | | The signature for Outlook and other clients. Open the file in a browser, select all, copy, and paste into Outlook › Settings › Signatures; then replace the name, job title, phone and email. |
-| | `KUEM_Signature-Logo_White_120x29@2x.png` (and `@3x`, `_Transparent`) | shown at 120 × 29 px | The logo the HTML signature loads from this repository. To embed it instead, insert the `@2x` PNG and set its size to 120 × 29 px. |
-
-The signature uses Arial on purpose: Outlook for Windows ignores fallback fonts and would show Times New Roman wherever the brand font is not installed.
+| `digital/email-signature/` | `KUEM_Signature-Logo_White_120x29@2x.png` (and `@3x`, `_Transparent`) | shown at 120 × 29 px | The logo of the first KUEM email signature. It stays here because signatures already sent load it from this repository; do not rename or remove it. New signatures are set centrally by KUEM in Microsoft 365, not copied from a file. |
 
 ## Office
 
