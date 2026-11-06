@@ -61,8 +61,19 @@ The company name, KUEM d.o.o., is written in text next to the logo, never built 
 | | `KUEM_LinkedIn_Personal-Banner_1584x396_SL` / `_EN` | 1584 × 396 px | Personal profiles of KUEM employees › Background photo. The left side stays free for the profile photo. |
 | `digital/google/` | `KUEM_Google_Business-Profile-Logo_720x720` | 720 × 720 px | Google Business Profile › Photos › Logo (Google shows it round; the K stays clear of the edge). Also suits other square avatar fields. |
 | | `KUEM_Google_Workspace-Logo_320x132` | 320 × 132 px, transparent | Google Workspace Admin › Account › Account settings › Personalization › Custom logo. |
+| | `KUEM_Google_Business-Profile-Logo_K_720x720`, `..._Logo_Wordmark_720x720` | 720 × 720 px | Google Business Profile › Logo; the K is recommended (the wordmark is too small to read at map-pin size). These files are above Google's 10 KB minimum file size. |
+| | `KUEM_Google_Business-Profile-Cover_Dashboard_1920x1080_SL` / `_EN` | 1920 × 1080 px | Google Business Profile › Cover photo. The dashboard figures are illustrative, not real readings. |
+| | `KUEM_Google_Business-Profile-Post_01`, `_03`, `_04` …`_1200x900_SL` / `_EN` | 1200 × 900 px | Google Business Profile › Add update (posts): 01 From device to decision, 03 Domplan, 04 Sombor gas. |
+| `digital/google-play/` | `KUEM_Google-Play_Developer-Icon_512x512` | 512 × 512 px | Google Play Console › Developer page › Icon. |
+| | `KUEM_Google-Play_Header_Dashboard_4096x2304_SL` / `_EN` | 4096 × 2304 px | Google Play Console › Developer page › Header image. The dashboard figures are illustrative. |
+| `digital/github/` | `KUEM_GitHub_Organization-Avatar_500x500` (PNG, SVG) | 500 × 500 px | GitHub › Organization settings › Profile picture. |
 | `digital/youtube/` | `KUEM_YouTube_Profile-Picture_800x800` | 800 × 800 px | YouTube Studio › Customization › Branding › Picture (shown round). |
 | | `KUEM_YouTube_Watermark_150x150` | 150 × 150 px | YouTube Studio › Customization › Branding › Video watermark. |
+| | `KUEM_YouTube_Watermark_Carbon_600x600` (or `_White-Transparent`) | 600 × 600 px | The video watermark at a higher resolution; Carbon recommended. |
+| | `KUEM_YouTube_Banner_Dashboard_2560x1440_SL` / `_EN` | 2560 × 1440 px | YouTube Studio › Customization › Branding › Banner image. The text stays in the 1546 × 423 px area every device shows; the dashboard figures are illustrative. |
+| | `KUEM_YouTube_Thumbnail_02_Route`, `_03_Reference` …`_3840x2160_SL` / `_EN`, `_Template-Carbon` / `-White` | 3840 × 2160 px, 1280 × 720 JPG copies | Video › Thumbnail. The templates are blank for new videos. Keep text out of the bottom-right corner, where YouTube shows the video length. |
+| | `KUEM_YouTube_End-Screen_3840x2160_SL` / `_EN` | 3840 × 2160 px | The last 5–20 s of a video; add the end screen elements on the right in YouTube Studio. |
+| `enlit/` | `KUEM_Enlit_Logo_512x512`, `KUEM_Enlit_Picture_1600x900_EN` | 512 × 512 px, 1600 × 900 px | KUEM's company page on enlit.world: logo and company picture. |
 | `digital/email-signature/` | `KUEM_Signature-Logo_White_120x29@2x.png` (and `@3x`, `_Transparent`) | shown at 120 × 29 px | The logo of the first KUEM email signature. It stays here because signatures already sent load it from this repository; do not rename or remove it. New signatures are set centrally by KUEM in Microsoft 365, not copied from a file. |
 
 ## Office
