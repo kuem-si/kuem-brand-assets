@@ -111,3 +111,13 @@ All print PDFs include 3 mm bleed on every side. Keep text and logos at least 5 
 | `KUEM_Apparel_Cap_85mm_White` / `_Carbon` | 85 mm wide | Front of caps, embroidered. |
 
 The files are at 1:1 scale. Garments are Carbon with the White logo; the Carbon logo is for white garments. The logo is never embroidered or printed narrower than 85 mm, because the thin stroke of the M becomes too fine for thread. Embroiderers make their stitch file from the `.svg` or `.ai`, and a sample is approved before the first run.
+
+## Release and checksums
+
+This kit is released as `v1.0.0`, built from the KUEM visual identity release `v1.0.0`. `MANIFEST.sha256` lists the SHA-256 of every file in the kit. Check a download with:
+
+```sh
+sha256sum -c MANIFEST.sha256
+```
+
+Each release is a Git tag; earlier files stay available at their tags.
