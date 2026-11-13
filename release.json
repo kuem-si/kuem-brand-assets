@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "product": "kuem",
   "kind": "assets",
-  "version": "v1.0.1",
-  "tag": "v1.0.1",
-  "approvedBy": "docs/decisions/0019-release-v1.0.0.md",
+  "version": "v1.1.1",
+  "tag": "v1.1.1",
+  "approvedBy": "docs/decisions/0020-release-v1.1.1.md",
   "source": {
     "repository": "kuem-si/kuem-visual-identity",
-    "tag": "v1.0.0",
-    "commit": "ecbd7bb673c294d420684b33fb1101051c53b472"
+    "tag": "v1.1.1",
+    "commit": "f2747f823a10b2ab51e37fd20a8286d0dcb1bbf3"
   },
   "outputs": [
     {
       "path": "README.md",
-      "sha256": "b08087c4985e6fdb24d4455ccdfdee474024ca92147fe8e9f74fd10d91e70f80"
+      "sha256": "43b7b14251ab04476558f1f38a84f18cd2975d83604266909eaa36cce40e11f7"
     },
     {
       "path": "apparel/KUEM_Apparel_Back_200mm_Carbon.ai",
@@ -237,7 +237,7 @@
     },
     {
       "path": "digital/google/KUEM_Google_Business-Profile-Logo_720x720.png",
-      "sha256": "e45638990dcc7432e402506fcfa20c7efd04435cf5fb9427daf94b2332d77c66"
+      "sha256": "471aa3515335a7852412eaceb67918d7f7e4cdbaf71cd84539434c1695a1acf5"
     },
     {
       "path": "digital/google/KUEM_Google_Business-Profile-Logo_720x720.svg",
@@ -249,7 +249,7 @@
     },
     {
       "path": "digital/google/KUEM_Google_Business-Profile-Logo_K_720x720.png",
-      "sha256": "150eb354edbf788fd519b45f61834794d319a8d04b98c5bca7eb86c06f10442e"
+      "sha256": "76de6b72c4459dd0130b62e108a1a825bfb450a769b9492f7644dccea6baf482"
     },
     {
       "path": "digital/google/KUEM_Google_Business-Profile-Logo_Wordmark_720x720.jpg",
@@ -257,7 +257,7 @@
     },
     {
       "path": "digital/google/KUEM_Google_Business-Profile-Logo_Wordmark_720x720.png",
-      "sha256": "af7fd1fd3606b8dfd354ced9ff8b963e8d417c2e21fe9a367a37f12a81920ca8"
+      "sha256": "4b74e8a66bbcef4c95d1d5cc14dc4c4945263c89c38ca9676d439c95915228aa"
     },
     {
       "path": "digital/google/KUEM_Google_Business-Profile-Post_01_From-device-to-decision_1200x900_EN.jpg",
