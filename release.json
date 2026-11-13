@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
   "product": "kuem",
-  "kind": "brand-assets",
-  "version": "v1.0.0",
-  "tag": "v1.0.0",
-  "approvedBy": "kuem-visual-identity:docs/decisions/0019-release-v1.0.0.md",
+  "kind": "assets",
+  "version": "v1.0.1",
+  "tag": "v1.0.1",
+  "approvedBy": "docs/decisions/0019-release-v1.0.0.md",
   "source": {
     "repository": "kuem-si/kuem-visual-identity",
     "tag": "v1.0.0",
     "commit": "ecbd7bb673c294d420684b33fb1101051c53b472"
   },
-  "checksumFile": "MANIFEST.sha256",
   "outputs": [
     {
       "path": "README.md",
-      "sha256": "10c018a96d69d670cf4add6ad743fd4bd978dec60e2466ca77f97cd260c2f737"
+      "sha256": "b08087c4985e6fdb24d4455ccdfdee474024ca92147fe8e9f74fd10d91e70f80"
     },
     {
       "path": "apparel/KUEM_Apparel_Back_200mm_Carbon.ai",
