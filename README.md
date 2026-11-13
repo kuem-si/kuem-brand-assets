@@ -114,7 +114,7 @@ The files are at 1:1 scale. Garments are Carbon with the White logo; the Carbon 
 
 ## Release and checksums
 
-This kit is released as `v1.0.0`, built from the KUEM visual identity release `v1.0.0` (`kuem-visual-identity` commit `ecbd7bb673c294d420684b33fb1101051c53b472`). `MANIFEST.sha256` lists the SHA-256 of every file in the kit, and `release.json` records the same checksums with the version and its source. Check a download with:
+This kit is released as `v1.0.1`, built from the KUEM visual identity release `v1.0.0` (`kuem-visual-identity` commit `ecbd7bb673c294d420684b33fb1101051c53b472`). `MANIFEST.sha256` lists the SHA-256 of every file in the kit, and `release.json` records the same checksums with the version and its source. v1.0.1 changes only `release.json` (manifest format) and this paragraph; every asset is identical to v1.0.0. Check a download with:
 
 ```sh
 sha256sum -c MANIFEST.sha256
